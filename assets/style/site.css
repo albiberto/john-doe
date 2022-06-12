@@ -1,0 +1,68 @@
+p {
+  margin-top: 10px;
+  font-size: .8em;
+}
+
+p::first-letter {
+  font-family: medieval, sans-serif, serif;
+  font-weight: lighter;
+  font-size: 1.6em;
+}
+
+ul {
+  font-size: .8em;
+}
+
+::marker {
+  color: var(--dark-green);
+  font-size: 20px;
+}
+
+#content {
+  width: 100%;
+}
+
+#signature {
+  font-size: 2.5em;
+  font-family: signature, sans-serif, serif;
+  margin-top: -10px;
+}
+
+#footer {
+  font-size: .8em;
+  justify-content: space-between;
+  maegin-top: .5cm;
+}
+
+.mother-tongue {
+  font-size: 0.9em;
+}
+
+.center {
+  text-align: center;
+}
+
+.section {
+  font-size: 1.5em;
+  margin: 1cm 0 0 5%;
+}
+
+.sub-section {
+  font-size: .8em;
+  font-weight: bold;
+
+  margin: 10px 5% 0
+}
+
+.section-body{
+  width: 90%;
+
+  margin: 0 auto;
+
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+#body .section {
+  color: var(--dark-green);
+}

@@ -1,0 +1,168 @@
+<!DOCTYPE HTML>
+<html lang="it">
+
+<head>
+ <title>John Doe</title>
+
+ <meta charset="UTF-8">
+
+  <!-- CSS -->
+ <link rel="stylesheet" type="text/css" href="assets/style/page.css" />
+ <link rel="stylesheet" type="text/css" href="assets/style/rules.css" />
+ <link rel="stylesheet" type="text/css" href="assets/style/flex.css" />
+
+ <link rel="stylesheet" type="text/css" href="assets/style/site.css" />
+ <link rel="stylesheet" type="text/css" href="assets/style/header.css" />
+ <link rel="stylesheet" type="text/css" href="assets/style/aside.css" />
+
+ <link rel="stylesheet" type="text/css" href="assets/style/table.css" />
+ <link rel="stylesheet" type="text/css" href="assets/style/underline.css" />
+ <link rel="stylesheet" type="text/css" href="assets/style/bar.css" />
+ 
+ <link rel="shortcut icon" type="image/jpg" href="assets/favicon.png"/>
+
+ <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+ <!-- End CSS -->
+
+ <!--  JS-->
+ <script src="assets/js/script.js" type="application/javascript" rel="script"></script>
+ <!--End JS-->
+</head>
+
+<body>
+
+  <page size="A4">
+
+    <!-- ASIDE -->
+    <div id="aside" class="flex-column">
+      <img id="profile" src="assets/img/profile.jpg"  alt="profile image"/>
+
+      <div class="section center">Skills</div>
+
+      <div class="sub-section">Programming Languages</div>
+      <div class="bar" data-skill="C#"></div>
+      <div class="bar" data-skill="HTML" style="--percentage: 80%"></div>
+      <div class="bar" data-skill="CSS" style="--percentage: 40%"></div>
+      <div class="bar" data-skill="Javascript" style="--percentage: 60%"></div>
+
+      <div class="sub-section">Databases</div>
+      <div class="bar" data-skill="SQL Server" style="--percentage: 80%"></div>
+      <div class="bar" data-skill="Postgres" style="--percentage: 75%"></div>
+      <div class="bar" data-skill="Mongo" style="--percentage: 50%"></div>
+
+    </div>
+    <!-- End ASIDE -->
+
+    <!-- CONTENT -->
+    <div id="content" class="flex-column">
+      <!-- HEADER -->
+      <div id="header">
+        <div id="title" style="--size: 4px">
+          John Doe
+        </div>
+        <div id="sub-title">
+          Anonymous Person
+        </div>
+        <div id="contacts" class="header-font-lighter" style="--size: 1px">
+          contacts
+        </div>
+        <div id="contacts-content" class="flex-row header-font-lighter">
+          <span class="flex-row flex-align-center"><i class="bi bi-envelope contents"></i>&nbsp; john.doe@outlook.com</span>
+          <span><i class="bi bi-phone"></i>&nbsp; +001 123456789</span>
+        </div>
+      </div>
+      <!-- End HEADER -->
+
+      <!-- BODY -->
+      <div id="body">
+
+        <!-- ABOUT ME -->
+        <div class="section">
+          About Me
+        </div>
+        <div class="section-body">
+          <p>
+            <strong>John Doe</strong> (male) and <strong>Jane Doe</strong> (female) are multiple-use placeholder names that are used when the true name of a person is unknown or is being intentionally concealed.
+          </p>
+          <p>
+            In the context of law enforcement in the United States, such names are often used to refer to a corpse whose identity is unknown or unconfirmed.
+          </p>
+          <p>
+            There are many variants to the above names, including:
+          </p>
+          <ul>
+            <li>"Johnny Doe" (for children)</li>
+            <li>"Janie Doe"</li>
+          </ul>
+        </div>
+        <!-- End ABOUT ME -->
+
+        <!-- LANG -->
+        <div class="section">
+          Languages
+        </div>
+        <div class="section-body">
+          <p class="mother-tongue">
+           Mother Tongue: <strong>Italian</strong>.
+          </p>
+
+          <table id="lang-table">
+
+            <thead>
+              <tr class="center"><th></th><th colspan="2">UNDERSTANDING</th><th colspan="2">SPEAKING</th><th>WRITING</th></tr>
+              <tr><td></td><td>Listening</td><td>Reading</td><td>Spoken interaction</td><td>Spoken production</td><td></td></tr>
+            </thead>
+
+            <tbody>
+              <tr>
+                <td><strong>English</strong></td>
+                <td><div>C2</div>Proficient user</td>
+                <td><div>C2</div>Proficient user</td>
+                <td><div>C2</div>Proficient user</td>
+                <td><div>C2</div>Proficient user</td>
+                <td><div>C2</div>Proficient user</td>
+              </tr>
+              <tr>
+                <td><strong>Spanish</strong></td>
+                <td><div>A2</div>Basic user</td>
+                <td><div>A2</div>Basic user</td>
+                <td><div>A2</div>Basic user</td>
+                <td><div>A2</div>Basic user</td>
+                <td><div>A2</div>Basic user</td>
+              </tr>
+              <tr>
+                <td><strong>German</strong></td>
+                <td><div>B2</div>Independent user</td>
+                <td><div>B2</div>Independent user</td>
+                <td><div>B2</div>Independent user</td>
+                <td><div>B2</div>Independent user</td>
+                <td><div>B2</div>Independent user</td>
+              </tr>
+            </tbody>
+
+          </table>
+
+        </div>
+        <!-- End LANG -->
+
+        <div class="section">
+          Treatment of personal data
+        </div>
+        <div class="section-body">
+          <p>
+            In compliance with the Italian legislative Decree no. 196 dated 30/06/2003, I hereby authorize you to use and process my personal details contained in this document for purposes related with job offers.
+          </p>
+          <div id="footer" class="flex-row">
+            <span>Los Angeles, <span id="date"></span></span><span id=signature>John Doe</span>
+          </div>
+        </div>
+
+      </div>
+      <!-- End BODY -->
+
+    </div>
+    <!-- End CONTENT -->
+  </page>
+
+</body>
+</html>

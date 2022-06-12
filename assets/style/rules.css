@@ -1,0 +1,33 @@
+﻿@page {
+    size: A4;
+    margin: 0;
+}
+
+@media print {
+    html, body {
+        width: 210mm;
+        height: 297mm;
+    }
+}
+
+@font-face { font-family: student; src: url('../fonts/LouisGeorgeCafe.ttf'); }
+@font-face { font-family: signature; src: url('../fonts/MerlionScript.ttf'); }
+@font-face { font-family: medieval; src: url('../fonts/CloisterBlack.ttf'); }
+
+/*Default Variables Values*/
+:root {
+    --size: 2px;
+    --percentage: 97%;
+    
+    /*Colors*/
+    /*PALETTES => https://coolors.co/palettes/trending*/
+    --page-background: white;
+
+    --light-gray: #EEE;
+    --dark-gray: #444;
+    --dark-green: #005f73;
+    --green: #0a9396;
+    --light-green: #94d2bd;
+    --dark-orange: #ee9b00;
+    --light-orange: #e9d8a6;
+}

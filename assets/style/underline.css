@@ -1,0 +1,14 @@
+#title::after, #contacts::after, .section::after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  width: 95%;
+  border-bottom: var(--size) solid var(--dark-gray);
+}
+
+#body .section::after {
+  border-bottom: var(--size) solid var(--dark-green);
+}
+
+#aside .section::after {
+  border-bottom: var(--size) solid var(--dark-orange);
+}

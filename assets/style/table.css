@@ -1,0 +1,31 @@
+table#lang-table {
+  width: 100%;
+  font-size: .8em;
+  text-align: center;
+  border-collapse: collapse;
+}
+
+table#lang-table th, td {
+  border: 1px solid black;
+}
+
+table#lang-table thead tr:first-child {
+  background: var(--dark-green);
+}
+
+table#lang-table thead tr td:first-child, table#lang-table thead tr th:first-child {
+  background: var(--page-background);
+  border: none;
+}
+
+table#lang-table thead tr:nth-child(2) {
+  background: var(--dark-orange);
+}
+
+table#lang-table tbody tr:nth-child(odd){
+  background: var(--green);
+}
+
+table#lang-table tbody tr:nth-child(even){
+  background: var(--light-green);;
+}

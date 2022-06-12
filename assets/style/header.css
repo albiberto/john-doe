@@ -1,0 +1,33 @@
+.header-font-lighter {
+    font-weight: lighter;
+}
+
+#header {
+  background: var(--dark-orange);
+
+  font-weight: bold;
+  height: 7cm;
+
+  padding-left: 5%;
+}
+
+#title {
+  margin-top: 2cm;
+  font-size: 2.5em;
+}
+
+#sub-title {
+  font-size: 1.25em;
+}
+
+#contacts {
+  margin-top: 1.25cm;
+  font-size: .8em;
+  font-weight: bold;
+}
+
+#contacts-content {
+  margin: .25cm 0;
+  justify-content: space-around;
+  font-size: .8em;
+}

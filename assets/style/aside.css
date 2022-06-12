@@ -1,0 +1,20 @@
+#aside {
+  background: var(--dark-green);
+  width: 8cm;
+}
+
+#profile {
+  width: 5cm;
+  height: 5cm;
+
+  margin: 1.5cm auto .25cm;
+  border: 5px solid var(--dark-gray);
+
+  border-radius: 2.5cm;
+  -moz-border-radius: 2.5cm;
+  -webkit-border-radius: 2.5cm;
+}
+
+#aside .section, #aside .sub-section {
+  color: var(--dark-orange)
+}

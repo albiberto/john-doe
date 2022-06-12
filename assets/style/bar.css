@@ -1,0 +1,19 @@
+.bar {
+    background: var(--light-gray);
+    width: 80%;
+    margin: 5px auto;
+    padding: 2px;
+
+    border-radius: 15px;
+}
+
+.bar::before {
+  content: attr(data-skill);
+  padding-left: 5px;
+
+  display: inline-block;
+  border-radius: inherit;
+
+  background-color: var(--light-orange);
+  width: var(--percentage)
+}
